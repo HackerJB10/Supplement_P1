@@ -3,7 +3,7 @@
 public class Supplement_P1
 {
     public static double AreaOfRectangle(double length, double width){
-       throw new NotImplementedException();
+       return length * width;
     }
      public static double AreaOfCircle(double radius){
        throw new NotImplementedException();
