@@ -1,15 +1,10 @@
-namespace Supplements;
+﻿namespace Supplements;
 
 public class Supplement_P1
 {
     public static double AreaOfRectangle(double length, double width){
-      
-        if(length == width){
-         return length * length;
-
-       }else{
-         return length * width;
-      }
+       return length * width;
+    }
      public static double AreaOfCircle(double radius){
        throw new NotImplementedException();
     }
