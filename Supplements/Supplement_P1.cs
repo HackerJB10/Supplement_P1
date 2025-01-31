@@ -1,4 +1,4 @@
-﻿namespace Supplements;
+namespace Supplements;
 
 public class Supplement_P1
 {
@@ -9,7 +9,7 @@ public class Supplement_P1
        throw new NotImplementedException();
     }
 
- public static double AreaOfTriangle(double Tribase, double TriHeight){
+     public static double AreaOfTriangle(double Tribase, double TriHeight){
        throw new NotImplementedException();
     }
 }
