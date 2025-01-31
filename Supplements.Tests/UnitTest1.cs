@@ -1,11 +1,10 @@
-namespace Supplements.Tests;
+﻿namespace Supplements.Tests;
 
 public class UnitTest1
 {
-    
     [Fact]
-    public void ShouldThisCalculateCorrectlyValuesAreaOfRectangle()
+    public void ShouldThisCalculateCorrectly()
     {
-         Assert.True(50.0 == Supplement_P1.AreaOfRectangle(5.0,10.0));
+        Assert.True(50.0 == Supplement_P1.AreaOfRectangle(5.0,10.0));
     }
 }
