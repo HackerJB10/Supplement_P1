@@ -1,12 +1,35 @@
-namespace Supplements;
+﻿namespace Supplements;
 
 public class Supplement_P1
 {
+   /// <summary>
+   /// Returns the area of a rectangle.
+   /// If the length matches the width, the does length * length instead.
+   /// </summary>
+   /// <param name="length">length of the rectangle</param> 
+   /// <param name="width">width of the rectangle</param> 
+   /// <returns> Area of the rectangle</returns>
+
     public static double AreaOfRectangle(double length, double width){
-       return length * width;
+      
+        if(length == width){
+         return length * length;
+
+       }else{
+         return length * width;
+      }
+
+      
+ 
     }
+/// <summary>
+    /// Returns the radius of a circle 
+    /// </summary>
+    /// <param name="radius">Circle radius</param>
+    /// <returns>The area of a unit circle witha given radius</returns>
+
      public static double AreaOfCircle(double radius){
-       throw new NotImplementedException();
+       return double.Pow(radius,2.0) * double.Pi;
     }
 
 /// <summary>
@@ -17,6 +40,8 @@ public class Supplement_P1
 /// <returns>Returns the area of a Triangle with a given value</returns>
 
      public static double AreaOfTriangle(double Tribase, double TriHeight){
-       throw new NotImplementedException();
+       return Tribase * TriHeight / 2;
+
     }
+
 }
