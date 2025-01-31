@@ -1,4 +1,4 @@
-﻿namespace Supplements.Tests;
+namespace Supplements.Tests;
 
 public class UnitTest1
 {
@@ -7,4 +7,11 @@ public class UnitTest1
     {
         Assert.True(50.0 == Supplement_P1.AreaOfRectangle(5.0,10.0));
     }
+
+    [Fact]
+    public void ShouldThisCalculateCorrectlySameValuesAreaOfRectangles()
+    {
+        Assert.True(25.0 == Supplement_P1.AreaOfRectangle(5.0,5.0));
+    }
+
 }
